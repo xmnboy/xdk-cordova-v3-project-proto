@@ -5,8 +5,8 @@
 !/docs
 !/plugins
 !/config.xml
-!/README.md
-!/LICENSE.md
+!/README*
+!/LICENSE*
 !/intelxdk.config.additions.xml
 !/*.xdk
 !/.gitignore
