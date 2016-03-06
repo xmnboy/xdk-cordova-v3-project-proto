@@ -1,1 +1,1 @@
-../../../lib/init-dev.js
+../../../../libs/init-dev.js
