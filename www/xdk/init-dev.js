@@ -64,7 +64,7 @@ else {
 // Set to "true" if you want the console.log messages to appear.
 // Helpful for debugging and understanding how this file works.
 
-dev.LOG = dev.LOG || true ;
+dev.LOG = dev.LOG || false ;
 
 dev.consoleLog = function() {       // only emits console.log messages if dev.LOG != false
     if( dev.LOG ) {
