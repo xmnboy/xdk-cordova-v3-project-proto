@@ -7,6 +7,7 @@
       "lastModifiedDate": 1455582738857,
       "creationDate": 1455582738857
     },
+    "XDK-app-designer": "false",
     "sourceDirectory": "www",
     "startFile": "index.html",
     "cordovaPluginsDirectory": "plugins",
@@ -70,14 +71,14 @@
         "preferences_": {
           "android-minSdkVersion": "14",
           "android-targetSdkVersion": "19",
-          "android-installLocation": "auto"
+          "android-installLocation": "auto",
+          "Fullscreen": true,
+          "Orientation": "portrait",
+          "android-signed": true
         },
         "isActive_": true,
         "appName_": "project-name",
         "appID_": "xdk.intel.cordova.construct2",
-        "Fullscreen": true,
-        "Orientation": "portrait",
-        "addlPermissions_": "ACCESS_COARSE_LOCATION;ACCESS_FINE_LOCATION;CAMERA;VIBRATE",
         "appAccess_": {
           "mode": "whitelist",
           "network": ["*"],
@@ -90,25 +91,32 @@
             "geo:*",
             "market:*"
           ],
-          "navigation": []
+          "navigation": [],
+          "properties": {}
         },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
         "certificateId_": "",
+        "addlPermissions_": "ACCESS_COARSE_LOCATION;ACCESS_FINE_LOCATION;CAMERA;VIBRATE",
         "appVersion_": "0.0.1",
         "appVersionCode_": "1"
       },
       "iOS": {
         "platform_": "ios",
+        "runtime_": "Cordova 3.x",
         "name_": "iOS",
         "cordovaCLIVersion_": "?",
         "preferences_": {
           "ios-target": "8",
-          "ios-configuration": "adhoc"
+          "ios-configuration": "adhoc",
+          "Fullscreen": true,
+          "Orientation": "portrait"
         },
         "isActive_": true,
         "appName_": "project-name",
         "appID_": "xdk.intel.cordova.construct2",
-        "Fullscreen": true,
-        "Orientation": "portrait",
         "appAccess_": {
           "mode": "legacy",
           "network": ["*"],
@@ -122,25 +130,31 @@
             "itms:*",
             "itms-apps:*"
           ],
-          "navigation": []
+          "navigation": [],
+          "properties": {}
         },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
         "certificateId_": "",
         "appVersion_": "0.0.1",
         "appVersionCode_": "1"
       },
       "Windows8": {
         "platform_": "windows8",
+        "runtime_": "Cordova 3.x",
         "name_": "Windows8",
         "cordovaCLIVersion_": "?",
         "preferences_": {
           "windows-publisher-display-name": "",
-          "windows-publisher-id": ""
+          "windows-publisher-id": "",
+          "Fullscreen": true,
+          "Orientation": "portrait"
         },
         "isActive_": true,
         "appName_": "project-name",
         "appID_": "xdk.intel.cordova.construct2",
-        "Fullscreen": true,
-        "Orientation": "portrait",
         "appAccess_": {
           "mode": "legacy",
           "network": ["*"],
@@ -152,8 +166,13 @@
             "mailto:*",
             "geo:*"
           ],
-          "navigation": []
+          "navigation": [],
+          "properties": {}
         },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
         "certificateId_": "",
         "appVersion_": "0.0.0.1",
         "appVersionCode_": "1"
