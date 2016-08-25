@@ -9,6 +9,7 @@
 !/LICENSE*
 !/intelxdk.config.additions.xml
 !/*.xdk
+!/*.xdke
 !/.gitignore
 !/.jscodehints
 !/app.json
